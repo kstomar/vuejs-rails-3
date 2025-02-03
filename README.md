@@ -38,14 +38,13 @@ GitHub Repository: [https://github.com/kstomar/vuejs-rails-3.git](https://github
 
 3. **Start the Rails Server**
 
-  ```bash
-  rails server
+   ```bash
+   rails server
 
 4. **Start the Vue.js Development Server**
-   ```bash
-   yarn run dev
 
-5. **URL http://localhost:3000 **
+    ```bash
+    yarn run dev
 
 
 
