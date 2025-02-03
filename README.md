@@ -1,24 +1,56 @@
-# README
+# Hotel Search Widget (Rails + Vue.js)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A hotel search widget built using Ruby on Rails for the backend and Vue.js for the frontend, integrated with the BoomNow API.
 
-Things you may want to cover:
+## Repository Link
 
-* Ruby version
+GitHub Repository: [https://github.com/kstomar/vuejs-rails-3.git](https://github.com/kstomar/vuejs-rails-3.git)
 
-* System dependencies
+## Setup Instructions
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby (version 3.x or higher)
+- Rails (version 7.x or higher)
+- Node.js (required for Vue.js)
+- Yarn (for frontend dependency management)
 
-* Database initialization
+### Steps to Set Up
 
-* How to run the test suite
+1. **Clone the Repository**
 
-* Services (job queues, cache servers, search engines, etc.)
+   ```bash
+   git clone https://github.com/kstomar/vuejs-rails-3.git
+   cd vuejs-rails-3
 
-* Deployment instructions
+   ```bash
+   bundle install
 
-* ...
+   ```bash
+   yarn install
+
+2. **Create a .env file in the root of your project and add the following:**   
+
+   ```bash
+   BOOMNOW_CLIENT_ID=your-client-id-here
+   BOOMNOW_CLIENT_SECRET=your-client-secret-here
+
+
+3. **Start the Rails Server**
+
+  ```bash
+  rails server
+
+4. **Start the Vue.js Development Server**
+   ```bash
+   yarn run dev
+
+5. **URL http://localhost:3000 **
+
+
+
+
+
+
+
+
