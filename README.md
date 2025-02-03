@@ -46,10 +46,8 @@ GitHub Repository: [https://github.com/kstomar/vuejs-rails-3.git](https://github
     ```bash
     yarn run dev
 
+4. **URL http://localhost:3000**
 
-
-
-
-
+ 
 
 
